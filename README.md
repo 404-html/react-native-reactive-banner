@@ -10,4 +10,20 @@ yarn add react-native-reactive-banner
 ```
 
 ## Usage
-TBA.
+
+### Basics
+```js
+import ReactiveBanner from 'react-native-reactive-banner'
+
+...
+
+return (
+	<ReactiveBanner scrollRef={scrollRef} scrollOffset={scrollOffset}>
+		your content here
+	</ReactiveBanner>
+);
+```
+
+### Full
+
+
