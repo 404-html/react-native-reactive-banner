@@ -1,5 +1,7 @@
-# react-native-reactive-banner
-Simple, lightweight banner wrapper that responds to scroll.
+# Reactive Banner for React Native
+* Lightweight banner wrapper that responds to scroll and animates content inside ✔
+* Simple with no dependencies ✔
+* Runs animations in native thread ✔
 
 ## Instalation
 
