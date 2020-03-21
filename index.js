@@ -11,7 +11,7 @@ const ReactiveBanner = ({ children, scrollRef, scrollOffset, height = windowHeig
 
 	return (
 		<View style={{ height, width: '100%', overflow: 'hidden' }} ref={viewRef} onLayout={() => {
-			const scrollHandle = findNodeHandle(scrollRef);
+			const scrollHandle = findNodeHandle(scrollRef.current || scrollRef);
 			viewRef.current.measureLayout(scrollHandle, (_x, y) => setYOffset(y));
 			UIManager.measure(scrollHandle, (_x, _y, _width, height) => setScrollHeight(height));
 		}}>
