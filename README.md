@@ -30,3 +30,10 @@ return (
 
 TBA.
 
+## Params
+| Params                | Type          | Description  | Default      |
+| --------------------- |:-------------:| ------------ | ------------ |
+| `scrollRef` | `Ref`     | Reference pointer to parent scroll component      ||
+| `scrollOffset`  | `Animated.Value`     |Current scroll offset provided as `Animated.Value`.||
+| `height`    | `Integer`     |Banner height (in `px`)| Window height divided by 5 |
+
