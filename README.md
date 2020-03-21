@@ -1,11 +1,11 @@
 # Reactive Banner for React Native
-Lightweight (apx. 1kb) 🤏 
+**Lightweight (apx. 1kb)** 🤏 
 
-Simple with no dependencies 😎 
+**Simple with no dependencies** 😎 
 
-Runs animations in native thread 🏎
+**Runs animations in native thread** 🏎
 
-I simply needed something nicer and catchier than what ads providers show in my app. _Voilà!_
+I needed something nicer and catchier than what ads providers show in my app. _Voilà!_
 
 ![react-native-reactive-banner](https://user-images.githubusercontent.com/45104241/77213869-b5acc600-6b0c-11ea-8a46-e628dbffb77a.gif)
 
