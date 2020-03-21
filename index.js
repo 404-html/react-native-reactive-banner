@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { Animated, UIManager, View, Dimensions, findNodeHandle } from 'react-native'
+import PropTypes from 'prop-types';
 const windowHeight = Dimensions.get('window').height;
 
 const ReactiveBanner = ({ children, scrollRef, scrollOffset, height = windowHeight / 5 }) => {
@@ -35,5 +36,11 @@ const ReactiveBanner = ({ children, scrollRef, scrollOffset, height = windowHeig
 		</View>
 	)
 }
+
+ReactiveBanner.propTypes = {
+	height: PropTypes.number,
+	scrollOffset: PropTypes.instanceOf(Animated.Value).isRequired,
+	scrollRef: PropTypes.object.isRequired
+};
 
 export default ReactiveBanner;
