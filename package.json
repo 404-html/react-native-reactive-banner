@@ -1,0 +1,26 @@
+{
+  "name": "react-native-reactive-banner",
+  "version": "1.0.0",
+  "description": "Simple, lightweight banner wrapper that responds to scroll.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/404-html/react-native-reactive-banner.git"
+  },
+  "keywords": [
+    "react native",
+    "animation",
+    "ads",
+    "banner",
+    "mobile"
+  ],
+  "author": "Artur Drozdz <contact@fullcolor.eu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/404-html/react-native-reactive-banner/issues"
+  },
+  "homepage": "https://github.com/404-html/react-native-reactive-banner#readme"
+}
