@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import { Animated, UIManager, View, Dimensions, findNodeHandle } from 'react-native'
 const windowHeight = Dimensions.get('window').height;
 
-const DynamicBanner = ({ children, scrollRef, scrollOffset, height = windowHeight / 5 }) => {
+const ReactiveBanner = ({ children, scrollRef, scrollOffset, height = windowHeight / 5 }) => {
 
 	const viewRef = useRef(null);
 	const [yOffset, setYOffset] = useState(0);
@@ -35,4 +35,4 @@ const DynamicBanner = ({ children, scrollRef, scrollOffset, height = windowHeigh
 	)
 }
 
-export default DynamicBanner;
+export default ReactiveBanner;
